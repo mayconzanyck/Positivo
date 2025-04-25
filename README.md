@@ -11,5 +11,3 @@ Repositório onde organizo meus estudos da faculdade de Análise e Desenvolvimen
 - 🔵 C
 - 🗄️ Banco de Dados
 - 📁 Outros projetos
-
-> Início do GitHub: 2025 🧠🚀
