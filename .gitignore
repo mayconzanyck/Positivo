@@ -1,0 +1,17 @@
+# Ignorar arquivos de compilação
+*.class
+*.exe
+*.obj
+*.dll
+
+# Ignorar arquivos do editor de código (por exemplo, VSCode)
+.idea/
+*.iml
+.vscode/
+
+# Ignorar arquivos temporários do sistema
+Thumbs.db
+.DS_Store
+
+# Ignorar pastas de dependências (para projetos em Node, por exemplo)
+node_modules/
