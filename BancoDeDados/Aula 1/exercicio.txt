@@ -1,0 +1,25 @@
+create database empresa; 
+
+  ##Lista banco de dados, e usar o mesmo 
+
+show databases; 
+
+use empresa; 
+
+##Crianção das tabelas 
+
+create table clientes( 
+
+    nome varchar(30), 
+
+    idade int, 
+
+    sexo char(1), 
+
+    peso float(3), 
+
+    bairro varchar(52), 
+
+    celular char(9) 
+
+    ); 

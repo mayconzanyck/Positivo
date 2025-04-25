@@ -1,0 +1,47 @@
+EXERCICIO 15 
+
+ 
+
+ALGORITMO exercicio_15 
+
+VAR 
+
+   INTEIRO: qtd_latas, qtd_garrafas_600ml, qtd_garrafas_2l; 
+
+   REAL: total_litros, total_latas, total_garrafas_600ml, total_garrafas_2l; 
+
+INICIO 
+
+    ESCREVA ("Informe a quantidade de latas de 350 ml: "); 
+
+    LEIA (qtd_latas); 
+
+  
+
+    ESCREVA ("Informe a quantidade de garrafas de 600 ml: "); 
+
+    LEIA (qtd_garrafas_600ml); 
+
+  
+
+    ESCREVA ("Informe a quantidade de garrafas de 2 litros: "); 
+
+    LEIA (qtd_garrafas_2l); 
+
+  
+
+    total_latas <- qtd_latas * 0,35;  
+
+    total_garrafas_600ml <- qtd_garrafas_600ml * 0,6; 
+
+    total_garrafas_2l <- qtd_garrafas_2l * 2;  
+
+  
+
+    total_litros <- total_latas + total_garrafas_600ml + total_garrafas_2l; 
+
+  
+
+    ESCREVA ("O total de litros de refrigerante comprado é: ", total_litros, " litros"); 
+
+FIM 

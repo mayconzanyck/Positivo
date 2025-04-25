@@ -1,0 +1,1 @@
+Não mudei apenas a classe bnt por ser um seletor de precedencia, ai imaginei que poderia dar algum erro

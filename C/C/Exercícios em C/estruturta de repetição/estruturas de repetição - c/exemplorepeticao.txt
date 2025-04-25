@@ -1,0 +1,35 @@
+ALGORITMO repeticao
+VAR
+    INTEIRO: contador
+INICIO
+    contador <- 1;
+
+    ENQUANTO(contador <= 5) FAÇA
+        ESCREVA(contador);
+        contador <- contador + 1;
+    FIMENQUANTO
+FIM
+
+--
+
+ALGORITMO repeticao
+VAR 
+    INTEIRO: contador
+INICIO
+    contador <- 1;
+
+    REPITA
+        ESCREVA(contador);
+        contador <- contador + 1;
+    ENQUANTO (contador <= 5);
+
+--
+
+ALGORITMO repeticao
+VAR
+    INTEIRO: contador;
+INICIO
+    PARA(contador <- 1; contador <= 5; contador <- contador + 1) FAÇA
+        ESCREVA(contador);
+    FIMPARA
+FIM

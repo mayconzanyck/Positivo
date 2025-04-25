@@ -1,0 +1,41 @@
+EXERCICIO 14 
+
+ 
+
+ALGORITMO exercicio_14 
+
+VAR 
+
+   REAL: salario_minimo, valor_100kw, valor_kw, qtd_kw, valor_total; 
+
+INICIO 
+
+    ESCREVA ("Informe o valor do salário mínimo: "); 
+
+    LEIA (salario_minimo); 
+
+  
+
+    ESCREVA ("Informe a quantidade de quilowatts consumidos: "); 
+
+    LEIA (qtd_kw); 
+
+  
+
+    valor_100kw <- salario_minimo / 7; 
+
+  
+
+    valor_kw <- valor_100kw / 100; 
+
+  
+
+    valor_total <- valor_kw * qtd_kw; 
+
+  
+
+    ESCREVA ("O valor de cada quilowatt é: R$", valor_kw); 
+
+    ESCREVA ("O valor total a ser pago é: R$", valor_total); 
+
+FIM 

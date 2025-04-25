@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 05</title>
+    <link rel="stylesheet" href="estilo/style.css" type="text/css">
+    <style>
+        /* Estilo básico para a pagina */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 0;
+        }
+
+        /* Estilos para o formulário */
+        form {
+            max-width: 100%;
+            margin: auto;
+        }
+
+        fieldset {
+            border: 1px soldi#ddd;
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+
+        legend {
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        label {
+            display: block;
+            margin: 10px 0 5px;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="password"],
+        input[type="tel"],
+        input[type="number"],
+        input[type="date"],
+        input[type="time"],
+        input[type="url"],
+        input[type="range"],
+        input[type="color"],
+        select,
+        textarea {
+            width: 98%;
+            padding: 8px;
+            margin-bottom: 10px;
+            border: 1px solid#ccc;
+            border-radius: 4px;
+        }
+
+        input[type="radio"],
+        input[type="checkbox"] {
+            margin-right: 5px;
+        }
+
+        button {
+            padding: 10px 15px;
+            background-color: #4caf50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+        .inline {
+            display: inline-block;
+            margin-right: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+    <header>
+        <div class="box_header" style="width: 200px; float: left;"><img src="img/logo.jpeg"></div>
+        <div class="box_header" style="width: 200px; float: right;">
+            <p>
+                Rua dos Alfeneiros 215<br>
+                Tel: (41) 2345678<br>
+                <img src="img/redes.png">
+            </p>
+        </div>
+
+        <nav>
+            <ol>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="quemsomos.html">Quem Somos</a></li>
+                <li><a href="servicoseprecos.html">Serviços e Preços</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ol>
+        </nav>
+    </header>
+    <section>
+        <h1>formulário</h1>
+
+        <!--Inicio do formulário semântico-->
+        <form action="#" method="POST">
+
+            <!--Fieldtest para agrupar informações pessoais-->
+            <fieldset>
+                <legend>Informações Pessoais</legend>
+
+                <!--Campo para o nome do usuário-->
+                <label for="nome0">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+
+                <!--Campo para o email do usuário-->
+                <label for="email">E-mail:</label>
+                <input type="email" name="email" id="email" required>
+
+                <!--Campo para o telefone do usuário-->
+                <label for="telefone">Telefone:</label>
+                <input type="tel" name="telefone" id="telefone">
+
+                <!--Campo para a senha do usuário-->
+                <label for="senha">Senha:</label>
+                <input type="password" name="senha" id="senha" required>
+
+                <!--Campo para confirmar senha-->
+                <label for="confirma_senha">Confirme a Senha:</label>
+                <input type="password" name="confirma_senha" id="confirma_senha" required>
+            </fieldset>
+
+            <!--Fieldset para agrupar detalhes adicionais-->
+            <fieldset>
+                <legend>Detalhes Adicionais</legend>
+
+                <!--Campo para data de nascimento-->
+                <label for="data_nascimento">Data de Nascimento:</label>
+                <input type="date" name="data_nascimento" id="data_nascimento">
+
+                <!--Campo para horário preferido-->
+                <label for="horario_preferido">Horário Preferio:</label>
+                <input type="time" name="horario_preferido" id="horario_preferido">
+
+                <!--Campo para selecionar quantidade-->
+                <label for="quantidade">Quantidade:</label>
+                <input type="number" name="quantidade" id="quantidade" min="1" max="10">
+
+                <!--Campo para selecionar um site favorito-->
+                <label for="website">Site Favorito:</label>
+                <input type="url" name="website" id="website">
+
+                <!--Campo para selecionar um valor em um intervalo-->
+                <label for="range">Nivel de Satisfação(1 a 10):</label>
+                <input type="range" name="range" id="range" min="1" max="10">
+
+                <!--Campo para selecionar um cor favorita-->
+                <label for="cor">Cor favorita:</label>
+                <input type="color" name="cor" id="cor" value="#000000">
+
+                <!--Campo para texto longo-->
+                <label for="mensagem">Mensagem:</label>
+                <textarea name="mensagem" id="mensagem" rows="8"></textarea>
+            </fieldset>
+
+            <!--Fieldset para opções de seleção-->     
+            <fieldset>
+                <legend>Preferências</legend>
+
+                <!--Campo de seleção única (radio)-->
+                <div class="inline">
+                    <label>
+                        <input type="radio" name="contato_preferido" value="email" checked> E-mail
+                    </label>
+                </div>
+                <div class="inline">
+                    <label>
+                        <input type="radio" name="contato_preferido" value="telefone"> Telefone
+                    </label>
+                </div>
+
+                <!--Campo para seleção multipla (checkbox)-->
+                <div class="inline">
+                    <label>
+                        <input type="checkbox" name="notificacoes" value="sms"> Receber SMS
+                    </label>
+                </div>
+                <div class="inline">
+                    <label>
+                        <input type="checkbox" name="notificacoes" value="email"> Receber E-mail
+                    </label>
+                </div>
+
+                <!--Campo de seleção de opções-->
+                <label for="curso">Curso:</label>
+                <select name="curso" id="curso" required>
+                    <option value="">Selecione o curso</option>
+                    <option value="Engenharia"></option>
+                    <option value="Arquitetura"></option>
+                    <option value="Design"></option>
+                </select>
+            </fieldset>
+
+            <!--Botão de envio do formulário-->
+            <button type="submit">Enviar</button>
+        </form>
+        <!--Fim do formulário semântico-->
+    </section>
+    <footer>
+        <p>Rua das Acácias, 123 Bairro Jardim Primavera São Paulo - SP, 04567-890 Brasil</p>
+    </footer>
+    </div>
+</body>
+</html>

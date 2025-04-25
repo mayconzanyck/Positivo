@@ -1,0 +1,35 @@
+EXERCICIO 12 
+
+ 
+
+ALGORITMO exercicio_12 
+
+VAR 
+
+   INTEIRO: A, B, temporario; 
+
+INICIO 
+
+      ESCREVA ("Informe o primeiro valor: "); 
+
+      LEIA (A); 
+
+  
+
+      ESCREVA ("Informe o segundo valor: "); 
+
+      LEIA (B); 
+
+  
+
+      temporario <- A; 
+
+      A <- B; 
+
+      B <- temporario; 
+
+  
+
+      ESCREVA ("Os números apresentados em sequência serão: ", A, " e ", B); 
+
+FIM 

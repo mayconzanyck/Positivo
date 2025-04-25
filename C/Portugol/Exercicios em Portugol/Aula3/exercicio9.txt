@@ -1,0 +1,29 @@
+EXERCICIO 9 
+
+ 
+
+ALGORITMO exercicio_9 
+
+VAR 
+
+   REAL: valor, gorjeta, total; 
+
+INICIO 
+
+      ESCREVA ("Qual o valor gasto?: "); 
+
+      LEIA (valor); 
+
+  
+
+      gorjeta <- valor * 0.1; 
+
+      total <- valor + gorjeta 
+
+  
+
+      ESCREVA ("O valor total é de: ", total); 
+
+      ESCREVA ("O valor da gorjeta e de: ", gorjeta); 
+
+FIM 

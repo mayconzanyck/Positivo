@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 05</title>
+    <link rel="stylesheet" href="estilo/style.css" type="text/css">
+    <style>
+        /* Estilos básicos para a página */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 0;
+        }
+
+        /* Estilos para a tabela */
+        table {
+            width: 100%; /* Tabela ocupa toda a largura */
+            border-collapse: collapse; /* Remove espaços entre as bordas */
+            margin-bottom: 20px; /* Espaçamento abaixo da tebela */
+        }
+
+        th, td{
+            padding: 10px; /* Espaçamento interno nas célular */
+            border: 1px solid#ddd; /* Borda cinza clara */
+            text-align: left; /* Alinhamento do texto à esquerda */
+        }
+            th {
+                background-color: #f2f2f2; /* Cor do fundo para o cabeçalho */
+            }
+    </style>
+</head>
+<body>
+    <div id="container">
+    <header>
+        <div class="box_header" style="width: 200px; float: left;"><img src="img/logo.jpeg"></div>
+        <div class="box_header" style="width: 200px; float: right;">
+            <p>
+                Rua dos Alfeneiros 215<br>
+                Tel: (41) 2345678<br>
+                <img src="img/redes.png">
+            </p>
+        </div>
+
+        <nav>
+            <ol>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="quemsomos.html">Quem Somos</a></li>
+                <li><a href="servicoseprecos.html">Serviços e Preços</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ol>
+        </nav>
+    </header>
+    <section>
+        <h1>Tabela Semântica</h1>
+
+        <!--Início da tabela semântica-->
+        <table>
+            <!--A tag <caption> descreve o propósito da tabela-->
+            <caption>Lista de Alunos</caption>
+
+            <!--Cabeçalho da tabela-->
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Idade</th>
+                    <th>Curs</th>
+                </tr>
+            </thead>
+
+            <!--Corpo da tabela-->
+            <tbody>
+                <tr>
+                    <td>Ana Silva</td>
+                    <td>22</td>
+                    <td>Engenharia</td>
+                </tr>
+                <tr>
+                    <td>Bruno Santos</td>
+                    <td>24</td>
+                    <td>Arquitetura</td>
+                </tr>
+                <tr>
+                    <td>Carla Oliveira</td>
+                    <td>21</td>
+                    <td>Design</td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                </tr>
+            </tbody>
+
+            <!--Rodapé da tabela-->
+            <tfoot>
+                <tr>
+                    <td colspan="3">Total de Alunos: 3</td>
+                </tr>
+            </tfoot>
+        </table>
+        <!--Fim da tabela semântica-->
+    </section>
+    <footer>
+        <p>Rua das Acácias, 123 Bairro Jardim Primavera São Paulo - SP, 04567-890 Brasil</p>
+    </footer>
+    </div>
+</body>
+</html>

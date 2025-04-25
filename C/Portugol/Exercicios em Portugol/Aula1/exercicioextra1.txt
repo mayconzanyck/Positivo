@@ -1,0 +1,26 @@
+Coração humano bate em metia 1 vez por segundo, desenvolver um algoritmo para calcular e escrever quantas vezes o coração de um pessoa batera se viver x anos 
+ 
+
+ALGORTIMO exercicio 
+
+  
+
+VAR 
+
+   INTEIRO: idade, total_segundos ; 
+
+INICIO 
+
+      ESCREVA ("Qual a sua idade?: "); 
+
+      LEIA (idade); 
+
+  
+
+      total_segundos <- idade * 31536; 
+
+  
+
+      ESCREVA ("O seu coração ja bateu", total_segundos, "vezes"); 
+
+FIM 

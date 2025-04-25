@@ -1,0 +1,14 @@
+//3. Escreva um algoritmo que leia um número inteiro e apresente o seu valor absoluto.
+ALGORITMO exercicio_3
+VAR
+	INTEIRO: num1
+INICIO
+	ESCREVA("Informe o numero: ");
+	LEIA(num1);
+	
+	SE(num1 < 0) ENTÃO
+		ESCREVA(num1 * (-1);
+	SENÃO
+		ESCREVA(num1);	
+	FIM-SE	
+FIM

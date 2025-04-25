@@ -1,0 +1,14 @@
+C:\Users\mayco\OneDrive\Documentos\Estudo\1. Faculdade\3 SEMESTRE\Tópicos Especiais de Sistema\Exemplo\bin\Debug\net8.0\Exemplo.exe
+C:\Users\mayco\OneDrive\Documentos\Estudo\1. Faculdade\3 SEMESTRE\Tópicos Especiais de Sistema\Exemplo\bin\Debug\net8.0\Exemplo.deps.json
+C:\Users\mayco\OneDrive\Documentos\Estudo\1. Faculdade\3 SEMESTRE\Tópicos Especiais de Sistema\Exemplo\bin\Debug\net8.0\Exemplo.runtimeconfig.json
+C:\Users\mayco\OneDrive\Documentos\Estudo\1. Faculdade\3 SEMESTRE\Tópicos Especiais de Sistema\Exemplo\bin\Debug\net8.0\Exemplo.dll
+C:\Users\mayco\OneDrive\Documentos\Estudo\1. Faculdade\3 SEMESTRE\Tópicos Especiais de Sistema\Exemplo\bin\Debug\net8.0\Exemplo.pdb
+C:\Users\mayco\OneDrive\Documentos\Estudo\1. Faculdade\3 SEMESTRE\Tópicos Especiais de Sistema\Exemplo\obj\Debug\net8.0\Exemplo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mayco\OneDrive\Documentos\Estudo\1. Faculdade\3 SEMESTRE\Tópicos Especiais de Sistema\Exemplo\obj\Debug\net8.0\Exemplo.AssemblyInfoInputs.cache
+C:\Users\mayco\OneDrive\Documentos\Estudo\1. Faculdade\3 SEMESTRE\Tópicos Especiais de Sistema\Exemplo\obj\Debug\net8.0\Exemplo.AssemblyInfo.cs
+C:\Users\mayco\OneDrive\Documentos\Estudo\1. Faculdade\3 SEMESTRE\Tópicos Especiais de Sistema\Exemplo\obj\Debug\net8.0\Exemplo.csproj.CoreCompileInputs.cache
+C:\Users\mayco\OneDrive\Documentos\Estudo\1. Faculdade\3 SEMESTRE\Tópicos Especiais de Sistema\Exemplo\obj\Debug\net8.0\Exemplo.dll
+C:\Users\mayco\OneDrive\Documentos\Estudo\1. Faculdade\3 SEMESTRE\Tópicos Especiais de Sistema\Exemplo\obj\Debug\net8.0\refint\Exemplo.dll
+C:\Users\mayco\OneDrive\Documentos\Estudo\1. Faculdade\3 SEMESTRE\Tópicos Especiais de Sistema\Exemplo\obj\Debug\net8.0\Exemplo.pdb
+C:\Users\mayco\OneDrive\Documentos\Estudo\1. Faculdade\3 SEMESTRE\Tópicos Especiais de Sistema\Exemplo\obj\Debug\net8.0\Exemplo.genruntimeconfig.cache
+C:\Users\mayco\OneDrive\Documentos\Estudo\1. Faculdade\3 SEMESTRE\Tópicos Especiais de Sistema\Exemplo\obj\Debug\net8.0\ref\Exemplo.dll

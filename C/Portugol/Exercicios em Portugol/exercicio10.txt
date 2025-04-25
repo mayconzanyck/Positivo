@@ -1,0 +1,37 @@
+EXERCICIO 10 
+
+ 
+
+ALGORITMO exercicio_10 
+
+VAR 
+
+       REAL: vendas, salario, salario_sapatos, comissao; 
+
+       INTEIRO: sapatos; 
+
+INICIO 
+
+       ESCREVA ("Qual o valor total das vendas do mês?: "); 
+
+       LEIA (vendas); 
+
+  
+
+       ESCREVA ("Qual o numero de sapatos vendidos no mês?: "); 
+
+       LEIA (sapatos); 
+
+  
+
+       comissão <- vendas * 0.2; 
+
+       salario_sapatos <- sapatos * 5.00; 
+
+       salario <- comissao + salario_sapatos; 
+
+  
+
+       ESCREVA ("O salário mensal foi de: ", salario); 
+
+FIM 

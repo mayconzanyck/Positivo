@@ -1,0 +1,57 @@
+EXERCICIO 3 
+
+ 
+
+ALGORITMO exercicio_3 
+
+ VAR 
+
+   INTEIRO: numero, antecessor, sucessor; 
+
+  
+
+INICIO 
+
+      Escreva ("Informe o numero: "); 
+
+      Leia (numero); 
+
+       
+
+      antecessor <- numero – 1; 
+
+      sucessor <- numero + 1; 
+
+       
+
+      Escreval ("O antecessor de", numero, " é:", antecessor); 
+
+      Escreva ("O sucessor de", numero, " é:", sucessor); 
+
+FIM 
+
+ 
+
+--- 
+
+ 
+
+ALGORITMO exercicio_3 
+
+VAR 
+
+   INTEIRO: numero; 
+
+INICIO  
+
+      Escreva ("Informe o numero: "); 
+
+      Leia (numero); 
+
+       
+
+      Escreval ("O antecessor de", numero, " é:", numero - 1); 
+
+      Escreva ("O sucessor de", numero, " é:", numero + 1); 
+
+FIM 

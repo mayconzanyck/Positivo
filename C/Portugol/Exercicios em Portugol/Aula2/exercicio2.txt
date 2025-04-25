@@ -1,0 +1,17 @@
+//2. Escreva um algoritmo que leia dois números inteiros e os apresente em ordem crescente.
+ALGORITMO exercicio_2
+VAR
+	INTEIRO: num1, num2;
+INICIO
+	ESCREVA("Informe o primeiro numero: ");
+	LEIA(num1);
+	
+	ESCREVA("Informe o segundo numero: ");
+	LEIA(num2);
+	
+	SE (num1 < num2) ENTÃO
+		ESCREVA("Ordem numerica: ", num1, num2);
+	SENÃO
+		ESCREVA("Ordem numerica: ", num2, num1);
+	FIM-SE
+FIM

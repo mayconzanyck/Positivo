@@ -1,0 +1,37 @@
+EXERCICIO 2 
+
+ 
+
+ALGORITMO exercicio_2 
+
+ VAR 
+
+   INTEIRO: segundos, minutos, horas, calculo_segundos; 
+
+INICIO 
+
+      ESCREVA ("Informe as horas: "); 
+
+      LEIA (horas); 
+
+       
+
+      ESCREVA ("Informe os minutos: "); 
+
+      LEIA (minutos); 
+
+       
+
+      ESCREVA ("Informe os segundos: "); 
+
+      LEIA (segundos); 
+
+       
+
+      calculo_segundos <- horas * 3600 + minutos * 60 + segundos; 
+
+       
+
+      ESCREVA ("RESULTADO: ", calculo_segundos); 
+
+FIM 

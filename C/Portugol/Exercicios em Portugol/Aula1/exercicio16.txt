@@ -1,0 +1,59 @@
+EXERCICIO 16 
+
+ 
+
+ALGORITMO exercicio_16 
+
+VAR 
+
+   INTEIRO: saque, qtd_100, qtd_50, qtd_20, qtd_10, qtd_5; 
+
+INICIO 
+
+    ESCREVA ("Informe o valor do saque: "); 
+
+    LEIA (saque); 
+
+  
+
+    qtd_100 <- saque / 100; 
+
+    saque <- saque % 100;  
+
+ 
+
+    qtd_50 <- saque / 50; 
+
+    saque <- saque % 50;  
+
+  
+
+    qtd_20 <- saque / 20; 
+
+    saque <- saque % 20; 
+
+  
+
+    qtd_10 <- saque / 10; 
+
+    saque <- saque % 10; 
+
+  
+
+    qtd_5 <- saque / 5; 
+
+    saque <- saque % 5;  
+
+  
+
+    ESCREVA ("Quantidade de cédulas de R$ 100: ", qtd_100); 
+
+    ESCREVA ("Quantidade de cédulas de R$ 50: ", qtd_50); 
+
+    ESCREVA ("Quantidade de cédulas de R$ 20: ", qtd_20); 
+
+    ESCREVA ("Quantidade de cédulas de R$ 10: ", qtd_10); 
+
+    ESCREVA ("Quantidade de cédulas de R$ 5: ", qtd_5); 
+
+FIM 

@@ -1,0 +1,37 @@
+EXERCICIO 13 
+
+ 
+
+ALGORITMO exercicio_13 
+
+VAR 
+
+   REAL: altura_pessoa, sombra_pessoa, sombra_predio, altura_predio; 
+
+INICIO 
+
+    ESCREVA ("Qual é a sua altura (em metros)?: "); 
+
+    LEIA (altura_pessoa); 
+
+  
+
+    ESCREVA ("Qual é a sua sombra (em metros)?: "); 
+
+    LEIA (sombra_pessoa); 
+
+  
+
+    ESCREVA ("Qual é a sombra do prédio (em metros)?: "); 
+
+    LEIA (sombra_predio); 
+
+  
+
+    altura_predio <- (altura_pessoa * sombra_predio) / sombra_pessoa; 
+
+  
+
+    ESCREVA ("A altura do prédio é: ", altura_predio, " metros"); 
+
+FIM 

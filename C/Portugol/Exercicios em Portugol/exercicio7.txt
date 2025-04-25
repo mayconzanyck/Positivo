@@ -1,0 +1,35 @@
+EXERCICIO 7 
+
+ 
+
+ALGORITMO exercicio_7 
+
+VAR 
+
+   REAL: media, capacidade_tanque, litros_abastecidos, distancia_percorrida, autonomia; 
+
+INICIO 
+
+      ESCREVA ("Qual a quilometragem percorrida desde o ultimo abastecimento: ") 
+
+      LEIA (distancia_percorrida); 
+
+      ESCREVA ("Qual a capacidade do tanque: "); 
+
+      LEIA (capacidade_tanque); 
+
+      ESCREVA ("Quantos litros foram abastecidos: "); 
+
+      LEIA (litros_abastecidos); 
+
+       
+
+      media <- distancia_percorrida /  litros_abastecidos; 
+
+      autonomia <- (capacidade_tanque - litros_abastecidos) * media; 
+
+  
+
+      ESCREVA ("O consumo medio é de: ", autonomia); 
+
+FIM 

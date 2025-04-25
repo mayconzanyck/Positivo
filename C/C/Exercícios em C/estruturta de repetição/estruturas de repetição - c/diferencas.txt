@@ -1,0 +1,21 @@
+diferença de i++ e ++i
+i++ : primeiro mostra e depois incrementa
+
+    int a = 5;
+    
+    printf("Resultado: %d\n", a++);
+    printf("A variavel esta valendo: %d\n", a);
+
+    Resultado: 5
+    A variavel esta valendo: 6
+
+--
+
+++i : primeiro incrimenta o valor e depois mostra
+    int a = 5;
+    
+    printf("Resultado: %d\n", ++a);
+    printf("A variavel esta valendo: %d\n", a);
+
+    Resultado: 6
+    A variavel esta valendo: 6

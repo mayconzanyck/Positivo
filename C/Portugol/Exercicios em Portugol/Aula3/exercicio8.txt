@@ -1,0 +1,33 @@
+EXERCICIO 8 
+
+ 
+
+ALGORITMO exercicio_8 
+
+VAR 
+
+   REAL: km, valor; 
+
+   INTEIRO: dias; 
+
+INICIO 
+
+      ESCREVA ("Qual a quantidade de km percorridos?: "); 
+
+      LEIA (km); 
+
+       
+
+      ESCREVA ("Por quantos dias o carro foi alugado?: "); 
+
+      LEIA (dias); 
+
+  
+
+      valor <- dias * 70.00 + 0.15 * km; 
+
+  
+
+      ESCREVA ("O valor a pagar é de: ", valor); 
+
+FIM 

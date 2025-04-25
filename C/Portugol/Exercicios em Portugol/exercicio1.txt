@@ -1,0 +1,27 @@
+EXERCICIO 1 
+
+ 
+
+ALGORITMO exercicio_1 
+
+VAR 
+
+    REAL: base, altura, area;     
+
+INICIO 
+
+      ESCREVA ("Qual o numero da base?:"); 
+
+      LEIA (base); 
+
+      
+
+      ESCREVA ("Qual o numero da altura?:"); 
+
+      LEIA (altura); 
+
+      area <- base * altura / 2; 
+
+      ESCREVA ("O valor da área do triangulo é de: ", area); 
+
+FIM 

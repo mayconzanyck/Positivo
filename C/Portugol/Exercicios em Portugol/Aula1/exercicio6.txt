@@ -1,0 +1,29 @@
+EXERCICIO 6 
+
+ 
+
+ALGORITMO exercicio_6 
+
+VAR 
+
+   REAL: real, taxa_cambio, dolar; 
+
+INICIO 
+
+      ESCREVA ("Informe o valor em reais: "); 
+
+      LEIA (real); 
+
+      ESCREVA ("Qual a taixa de cambio atual do dolar: "); 
+
+      LEIA (taxa_cambio); 
+
+  
+
+      dolar <- real / taxa_cambio; 
+
+  
+
+      ESCREVA ("A conversão em dolares é de: ", dolar); 
+
+FIM 

@@ -1,0 +1,53 @@
+EXERCICIO 11 
+
+ 
+
+ALGORITMO exercício_11 
+
+VAR 
+
+   INTEIRO: brancos, nulo, valido, eleitores; 
+
+   REAL: percentual, total_branco, total_nulo, total_valido; 
+
+INICIO 
+
+      ESCREVA ("Qual a quantidade total de eleitores no município?: "); 
+
+      LEIA (eleitores); 
+
+  
+
+      ESCREVA ("Houve quantos votos brancos?: "); 
+
+      LEIA (brancos); 
+
+  
+
+      ESCREVA ("Houve quantos votos nulos?: "); 
+
+      LEIA (nulo); 
+
+  
+
+      ESCREVA ("Houve quantos votos validados?: "); 
+
+      LEIA (valido); 
+
+  
+
+      total_branco <- (brancos / eleitores) * 100; 
+
+      total_nulo <- (nulo / eleitores) * 100; 
+
+      total_valido <- (valido / eleitores) * 100; 
+
+  
+
+      ESCREVA ("Percentual de votos brancos:", total_branco, "%"); 
+
+      ESCREVA ("Percentual de votos nulos:", total_nulo, "%"); 
+
+      ESCREVA ("Percentual de votos validos:", total_valido, "%");    
+
+FIM 

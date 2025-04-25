@@ -1,0 +1,19 @@
+//1. Escreva um algoritmo que leia dois números e efetue a adição dos mesmos. Caso o valor somado seja menor que 20, este deverá ser apresentado somando-se a ele mais 8; caso o valor somado seja igual ou maior que 20, este deverá ser apresentado subtraindo-se 5.
+ALGORITMO exercicio_1
+VAR
+	INTEIRO: num1, num2, soma;
+INICIO
+	ESCREVA("Informe o primeiro numero: ");
+	LEIA(num1);
+
+	ESCREVA("Informe o segundo numero: ");
+	LEIA(num2);
+
+	soma <- num1 + num2;
+
+	SE(soma < 20) ENTÃO
+		ESCREVA(soma + 8);
+	SENÃO
+		ESCREVA(soma - 5);
+	FIM-SE
+FIM
